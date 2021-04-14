@@ -1,0 +1,16 @@
+@media (max-width:770px){
+    .NavigationBtn{
+        display: none;
+    }
+    .MenuIcon{
+        display: block;
+    }
+}
+@media (min-width:770px){
+    .NavigationBtn{
+        display: flex;
+    }
+    .MenuIcon{
+        display: none;
+    }
+}

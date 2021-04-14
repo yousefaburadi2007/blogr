@@ -1,0 +1,33 @@
+@import 'Variables.scss';
+.NavigationBody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: $FontSize;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .MenuIcon{
+        margin-left: auto;
+    }
+    .NavigationBtn{
+      
+        width: 100%;
+        .SignBtn{
+            margin-left: auto;
+            a:nth-of-type(2){
+                background-color: white;
+                padding: 10px;
+                border-radius: 20px;
+                color: $CTA_Text;
+            }
+        }
+    }
+    
+}

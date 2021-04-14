@@ -1,0 +1,65 @@
+.HeaderBody {
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #ff515b), color-stop(87.21%, rgba(248, 121, 98, 0.464447)), color-stop(119.49%, rgba(255, 255, 255, 0))), #ff856e;
+  background: linear-gradient(270deg, #ff515b 50%, rgba(248, 121, 98, 0.464447) 87.21%, rgba(255, 255, 255, 0) 119.49%), #ff856e;
+  width: 96vw;
+  padding: 30px;
+  border-radius: 0px 0px 0px 50px;
+  background-image: url("./bg-pattern-intro.svg");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.HeaderBody * {
+  padding: 20px;
+}
+
+.HeaderBody a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.HeaderBody .SubscribeBtn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HeaderBody .SubscribeBtn a {
+  background-color: white;
+  padding: 7px;
+  border-radius: 20px;
+  color: #ff525d;
+  border: 1px solid white;
+}
+
+.HeaderBody .SubscribeBtn a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.HeaderBody .SubscribeBtn a:nth-of-type(2) {
+  background-color: transparent;
+  color: white;
+}
+
+.HeaderBody .SubscribeBtn a:nth-of-type(2):hover {
+  background-color: white;
+  color: #ff525d;
+}
+/*# sourceMappingURL=Header.css.map */

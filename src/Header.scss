@@ -1,0 +1,55 @@
+@import "Variables.scss";
+$BgSize: cover;
+.HeaderBody {
+  * {
+    padding: 20px;
+  }
+  background: linear-gradient(
+      270deg,
+      #ff515b 50%,
+      rgba(248, 121, 98, 0.464447) 87.21%,
+      rgba(255, 255, 255, 0) 119.49%
+    ),
+    #ff856e;
+  width: 96vw;
+  padding: 30px;
+  border-radius: 0px 0px 0px 50px;
+  background-image: url("./bg-pattern-intro.svg");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .SubscribeBtn {
+    margin-left: auto;
+    margin-right: auto;
+    a {
+      background-color: white;
+      padding: 7px;
+      border-radius: 20px;
+      color: $CTA_Text;
+      border: 1px solid white;
+      &:hover {
+        background-color: transparent;
+        color: white;
+      }
+      &:nth-of-type(2) {
+        background-color: transparent;
+        color: white;
+        &:hover {
+          background-color: white;
+          color: $CTA_Text;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,cAAc,CAAA;IACV,OAAO,EAAE,IAAI;GAChB;EACD,AAAA,SAAS,CAAA;IACL,OAAO,EAAE,KAAK;GACjB;;;AAEL,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,cAAc,CAAA;IACV,OAAO,EAAE,IAAI;GAChB;EACD,AAAA,SAAS,CAAA;IACL,OAAO,EAAE,IAAI;GAChB",
+    "sources": [
+        "BreakPoints.scss"
+    ],
+    "names": [],
+    "file": "BreakPoints.css"
+}

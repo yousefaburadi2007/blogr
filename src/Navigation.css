@@ -1,0 +1,43 @@
+.NavigationBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 16px;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+}
+
+.NavigationBody a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavigationBody .MenuIcon {
+  margin-left: auto;
+}
+
+.NavigationBody .NavigationBtn {
+  width: 100%;
+}
+
+.NavigationBody .NavigationBtn .SignBtn {
+  margin-left: auto;
+}
+
+.NavigationBody .NavigationBtn .SignBtn a:nth-of-type(2) {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  color: #ff525d;
+}
+/*# sourceMappingURL=Navigation.css.map */
